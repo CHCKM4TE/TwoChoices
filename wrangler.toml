@@ -1,0 +1,14 @@
+name = "twochoices-worker"
+main = "src/worker.js"
+compatibility_date = "2024-04-10"
+
+# Uncomment one of the following storage options:
+
+# kv_namespaces = [
+#   { binding = "STORY_STATE_KV", id = "replace-with-kv-id" }
+# ]
+
+# [[d1_databases]]
+# binding = "STORY_STATE_DB"
+# database_name = "twochoices"
+# database_id = "replace-with-d1-id"

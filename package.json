@@ -1,0 +1,12 @@
+{
+  "name": "twochoices-worker",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "lint": "node --check src/worker.js src/storyState.js src/persistence.js src/previouslyOn.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
